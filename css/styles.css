@@ -1,0 +1,46 @@
+body {
+    width: 640px;
+    margin: auto;
+    background: grey;
+    font-family: sans-serif;
+}
+header p {
+    margin: 0px;
+    font-weight: bold;
+    text-align: center;
+    border-style: ridge;
+    font-size: 100px;
+}
+
+#Labyrinth{
+
+}
+#ohjeloota{
+    float: left;
+    padding: 5px;
+    word-wrap: break-word;
+    width: 300px;
+    border-style: dashed;
+}
+#ohjeloota h1{
+    margin: 0px;
+    text-transform: uppercase;
+}
+#infoloota{
+    float: right;
+    padding-left: 5px;
+    word-wrap: break-word;
+    width: 300px;
+    border-style: dashed;
+}
+#infoloota h1{
+    margin: 0px;
+    text-transform: uppercase;
+}
+img{
+    left: 10px;
+    bottom: 10px;
+    position: fixed;
+    height: 250px;
+    z-index: -1;
+}
